@@ -1,0 +1,32 @@
+{
+  "name": "hmu-mc",
+  "author": "Sean Wilson",
+  "version": "0.0.0",
+  "description": "hmu plugin for checking minecraft username availability",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devjs/hmu-mc"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.6.0",
+    "eslint-config-google": "^0.4.0"
+  },
+  "dependencies": {
+    "hmu-plugin": "^0.2.0",
+    "mojang": "^0.4.0"
+  },
+  "keywords": [
+    "hmu",
+    "minecraft",
+    "availability"
+  ]
+}
